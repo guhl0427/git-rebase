@@ -25,7 +25,6 @@ git rebase -i HEAD~4
 4. 按`ESC键`然后输出`:wq`，保存并退出
 5. 在之后出现的编辑页面继续按`i键`进入编辑模式，整理`commit信息`（不需要的直接删除就行dd快速删除行）
 
-
 # commit test
 
 main commit1
@@ -42,3 +41,6 @@ dev commit3
 commit1
 commit2
 commit3
+commit4
+commit5
+commit6
