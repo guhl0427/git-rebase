@@ -25,6 +25,24 @@ git rebase -i HEAD~4
 4. 按`ESC键`然后输出`:wq`，保存并退出
 5. 在之后出现的编辑页面继续按`i键`进入编辑模式，整理`commit信息`（不需要的直接删除就行dd快速删除行）
 
+
+```
+pick hash1 update readme
+pick hash2 commit1
+pick hash3 commit2
+pick hash4 commit3
+
+->
+
+pick hash1 update readme
+pick hash2 commit1
+s hash3 commit2
+s hash4 commit3
+```
+hash1会被保留
+
+hash2、hash3、hash4合并为一个commit，并且整合commit message
+
 # commit test
 
 main commit1
