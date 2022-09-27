@@ -23,5 +23,10 @@ main commit3
 dev commit1
 dev commit2
 dev commit3
-123123
-456456
+
+# fix
+丢弃掉那段历史吧
+
+commit1
+commit2
+commit3
