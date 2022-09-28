@@ -100,3 +100,13 @@ hash2和hash3合并为1个commit，并且整合commit message
 hash4会被保留，但可以修改commit的message
 
 相当于原来的4次commit变成了3次commit
+
+# fix
+丢弃掉那段历史吧
+
+commit1
+commit2
+commit3
+commit4
+commit5
+commit6
