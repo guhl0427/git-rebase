@@ -98,7 +98,7 @@ git checkout main
 git merge feat/branch
 ```
 
-# git rebase -i xxx 合并提交
+# git rebase -i xxx 交互模式
 (题外话：并不清楚这个命令跟rebase有什么关系)
 
 ## 作用
